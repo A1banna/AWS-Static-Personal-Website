@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Albanna | Portfolio</title>
+  <style>
+    :root {
+      --bg: #A5D8FF;
+      --dark: #36393B;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--dark);
+      font-family: "Segoe UI", Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    h1 {
+      color: var(--dark);
+      font-size: clamp(2rem, 6vw, 3.2rem);
+      margin: 0 0 0.5rem;
+    }
+    .role {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin: 0 0 2rem;
+    }
+
+    /* Official AWS badge (from Credly) */
+    .cert-badge {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 1.25rem 1.75rem;
+      border: 2px solid var(--dark);
+      border-radius: 16px;
+      text-decoration: none;
+      color: var(--dark);
+      transition: transform 0.2s ease;
+    }
+    .cert-badge:hover { transform: translateY(-3px); }
+    .cert-badge img {
+      display: block;
+      width: 180px;
+      height: auto;
+    }
+    .cert-badge span {
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    .stack {
+      margin-top: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      justify-content: center;
+    }
+    .pill {
+      padding: 0.4rem 0.9rem;
+      border: 1px solid var(--dark);
+      border-radius: 999px;
+      font-size: 0.9rem;
+      color: var(--dark);
+    }
+
+    .hosted {
+      margin-top: 2.5rem;
+      padding: 0.6rem 1.2rem;
+      border: 2px solid var(--dark);
+      border-radius: 10px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--dark);
+    }
+  </style>
+</head>
+<body>
+  <h1>Hi, I'm Albanna</h1>
+  <p class="role">Aspiring Solutions Architect / DevOps Engineer</p>
+
+  <a href="https://www.credly.com/badges/64a05651-09d8-4a98-b48f-d0a20a38ab4a/public_url" target="_blank" rel="noopener" class="cert-badge">
+    <img src="aws-cp-logo.png" alt="AWS Certified Cloud Practitioner badge">
+    <span>Click to verify on Credly</span>
+  </a>
+
+  <div class="stack">
+    <span class="pill">Amazon S3</span>
+    <span class="pill">CloudFront</span>
+  </div>
+
+  <div class="hosted">Hosted on AWS: S3 + CloudFront</div>
+</body>
+</html>
