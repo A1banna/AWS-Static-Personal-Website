@@ -13,43 +13,43 @@ Visitor Opens the CloudFront URL ->
 
 ## AWS Services used
 Amazon S3: Stores the Site's files (Index.html & the badge image)
-Amazon CloudFront:Delivers the site over HTTPS, caches content globally
+Amazon CloudFront: Delivers the site over HTTPS, caches content globally
 
 ## Screenshots Description:
 S1: Live Site Over HTTPS
 
-<p align="center">
-  <img src="https://github.com/A1banna/AWS-Static-Personal-Website/blob/9621f2815baf819fd96583e9df1b740167706f79/SS1.png" width="500">
+<p align="left">
+  <img src="https://github.com/A1banna/AWS-Static-Personal-Website/blob/9621f2815baf819fd96583e9df1b740167706f79/SS1.png" width="650">
 </p>
 
 S2: CloudFront Distribution Deployed
 
-<p align="center">
-  <img src="https://github.com/A1banna/AWS-Static-Personal-Website/blob/578032e5cb98cbabc78624eb0c5423b753b1dade/SS2.png" width="500">
+<p align="left">
+  <img src="https://github.com/A1banna/AWS-Static-Personal-Website/blob/578032e5cb98cbabc78624eb0c5423b753b1dade/SS2.png" width="650">
 </p>
 
 S3: S3 Bucket Contents
 
-<p align="center">
-  <img src="https://github.com/A1banna/AWS-Static-Personal-Website/blob/578032e5cb98cbabc78624eb0c5423b753b1dade/SS3.png" width="500">
+<p align="left">
+  <img src="https://github.com/A1banna/AWS-Static-Personal-Website/blob/578032e5cb98cbabc78624eb0c5423b753b1dade/SS3.png" width="650">
 </p>
 
 S4: S3 Bucket Contents with Versioning Enabled
 
-<p align="center">
-  <img src="https://github.com/A1banna/AWS-Static-Personal-Website/blob/578032e5cb98cbabc78624eb0c5423b753b1dade/SS4.png" width="500">
+<p align="left">
+  <img src="https://github.com/A1banna/AWS-Static-Personal-Website/blob/578032e5cb98cbabc78624eb0c5423b753b1dade/SS4.png" width="650">
 </p>
 
 S5: CloudFront Distribution Invalidations
 
-<p align="center">
-  <img src="https://github.com/A1banna/AWS-Static-Personal-Website/blob/578032e5cb98cbabc78624eb0c5423b753b1dade/SS5.png" width="500">
+<p align="left">
+  <img src="https://github.com/A1banna/AWS-Static-Personal-Website/blob/578032e5cb98cbabc78624eb0c5423b753b1dade/SS5.png" width="650">
 </p>
 
 S6: Block Public Access Enabled (Bucket Is Private)
 
-<p align="center">
-  <img src="https://github.com/A1banna/AWS-Static-Personal-Website/blob/578032e5cb98cbabc78624eb0c5423b753b1dade/SS6.png" width="500">
+<p align="left">
+  <img src="https://github.com/A1banna/AWS-Static-Personal-Website/blob/578032e5cb98cbabc78624eb0c5423b753b1dade/SS6.png" width="650">
 </p>
   
 ## Key Things I've Learnt:
