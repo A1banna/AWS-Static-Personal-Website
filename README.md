@@ -16,7 +16,8 @@ Amazon S3: Stores the Site's files (Index.html & the badge image)
 Amazon CloudFront:Delivers the site over HTTPS, caches content globally
 
 ## Screenshots Description:
-S1: Live Site Over HTTPS  
+S1: Live Site Over HTTPS
+![image alt](https://github.com/A1banna/AWS-Static-Personal-Website/blob/9621f2815baf819fd96583e9df1b740167706f79/SS1.png)
 S2: CloudFront distribution deployed CloudFront  
 S3: S3 bucket contents S3 bucket  
 S4: S3 Bucket Contents with versioning enabled  
